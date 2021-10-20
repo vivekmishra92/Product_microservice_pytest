@@ -15,3 +15,11 @@ Follow below steps to run testcase to test different APIs of product.
    
 2. Run pytest and generate html report
 `pytest –html=report.html`
+
+
+##### File Description:
+
+`conftest.py`: include all the fixture of the pytest
+`data.py`: contains test data which will be used during testing
+`helper.py`: contains the function for the api call which are required during testing
+`test_product_apis.py`: conatins all the test cases for the POST, GET, PUT and DELETE APIs
