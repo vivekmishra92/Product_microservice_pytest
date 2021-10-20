@@ -4,7 +4,7 @@ It runs a mongo db, product service and price engine after running the following
 
 `docker-compose up`
 
-##Test product microservice using pytest
+## Test product microservice using pytest
 
 Pre-requisite:
 Run pytest from `test` directory
@@ -19,7 +19,7 @@ Follow below steps to run testcase to test different APIs of product.
 
 ##### File Description:
 
-`conftest.py`: include all the fixture of the pytest
-`data.py`: contains test data which will be used during testing
-`helper.py`: contains the function for the api call which are required during testing
-`test_product_apis.py`: conatins all the test cases for the POST, GET, PUT and DELETE APIs
++ `conftest.py`: include all the fixture of the pytest
++ `data.py`: contains test data which will be used during testing
++ `helper.py`: contains the function for the api call which are required during testing
++ `test_product_apis.py`: conatins all the test cases for the POST, GET, PUT and DELETE APIs
